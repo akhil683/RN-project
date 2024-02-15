@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
   },
   cardTitle: {
-    color: "#000000",
+    color: 'red', 
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 2,
