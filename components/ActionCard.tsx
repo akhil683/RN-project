@@ -17,7 +17,7 @@ export default function ActionCard() {
             style={styles.cardImage}
           />
           <View style={styles.bodyContainer}>
-            <Text numberOfLines={3}>
+            <Text numberOfLines={3} style={styles.actionDescription}>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam fuga rerum velit ipsum nulla voluptas ad ut, sed sunt saepe libero cumque dolorum quis atque eligendi cum dolorem qui fugit omnis ratione molestias earum vero distinctio excepturi? Nulla consequuntur ea debitis voluptatum porro deserunt. Ad doloremque inventore illum deleniti pariatur earum reprehenderit blanditiis.
             </Text>
           </View>
@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
   },
   card: {
+    padding: 4,
     borderRadius: 6,
     marginVertical: 12,
     marginHorizontal: 20,
@@ -56,6 +57,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.4,
   },
   headerText: {
+    marginLeft: 8,
     color: 'black',
     fontSize: 18,
    marginVertical: 8,
@@ -67,6 +69,9 @@ const styles = StyleSheet.create({
   },
   bodyContainer: {
     padding: 10,
+  },
+  actionDescription: {
+    color: 'white',
   },
   footerContainer: {
     padding: 8,

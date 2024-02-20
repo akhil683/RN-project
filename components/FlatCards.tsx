@@ -3,8 +3,8 @@ export default function FlatCards() {
   return (
     <View>
       <Text style={styles.headingText}>FlatCards</Text>
-      <View style={styles.container}>
 
+      <View style={styles.container}>
         <View style={[styles.card, styles.cardOne]}>
           <Text>Card One</Text>
         </View>
@@ -17,8 +17,8 @@ export default function FlatCards() {
         <View style={[styles.card, styles.cardOne]}>
           <Text>Card One</Text>
         </View>
-        
       </View>
+      
     </View>
   )
 }
